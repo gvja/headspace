@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@800&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+:root {
+    --font-parabens: 'Great Vibes', cursive;
+    --font-texto: 'Montserrat', sans-serif;
+    --font-botao: 'Open Sans', sans-serif;
+    --bg-color: #fff;
+    --primary-color: #ffd100;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    height: 100vh;
+    font-family: var(--font-texto);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+}
+
+.container {
+    margin: 50px auto;
+    width: 300px;
+    text-align: center;
+}
+
+#box{
+    margin: 20px;
+}
+
+
+.titulo{
+    font-size: 2rem;
+    color: #023047;
+    font-family: var(--font-texto);
+}
+
+input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+}
+
+.botao {
+    width: 70%;
+    padding: 10px;
+    background-color: #E4B567;
+    border: 2px solid #E4B567;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s ease-out;
+    font-family: var(--font-botao);
+    font-size: 16px;
+}
+
+.agredecimento{
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.agradecimento-texto{
+    margin-bottom: 2rem;
+    margin-top: .4rem;
+}
+
+.nomeDaPessoa{
+    background-color: #D1674D;
+    color: #fff;
+    font-weight: bold;
+    padding: 4px 20px;
+    text-align: center;
+    font-family: var(--font-texto);
+    font-size: 18px;
+    width: fit-content;
+    
+    margin: -1px auto;
+}
+
+.link{
+    color: white;
+    background-color: #E4B567;
+    text-decoration: none;
+    padding: .7rem;
+    border-radius: 13px;
+    width: 70%;
+    font-family: var(--font-botao);
+    font-size: 13px;
+}
+
+.imagem{
+    height: 200px;
+    margin-bottom: 2rem;
+}
+
+.titulo-parabens{
+    font-family: var(--font-parabens);
+    font-size: 55px;
+    margin: 0;
+    color: #023047;
+}
+
+.texto{
+    font-size: 14px;
+    color: #023047;
+    font-family: var(--font-texto);
+    margin-top: 2.5rem;
+}
+
+.button-info{
+    font-size: 12px;
+    font-family: var(--font-texto);
+    color: #023047;
+    margin: 50px 0 20px;
+}
